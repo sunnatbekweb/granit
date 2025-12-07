@@ -55,7 +55,7 @@ export const Contact = () => {
 					</div>
 					<div className="hidden lg:block absolute top-0 right-0 w-1/2 h-full">
 						<iframe
-							src="https://yandex.uz/map-widget/v1/?ll=69.120621%2C41.273983&mode=search&sll=69.118806%2C41.273500&text=41.273500%2C69.118806&z=16.8"
+							src="https://yandex.uz/map-widget/v1/?bookmarks%5Bpid%5D=work&bookmarks%5Buri%5D=ymapsbm1%3A%2F%2Fpin%3Fll%3D69.203610%252C41.287270&ll=69.205912%2C41.287660&z=16.4"
 							className="w-full h-full"
 							style={{ border: 0 }}
 						></iframe>
@@ -64,7 +64,7 @@ export const Contact = () => {
 			</section>
 			<div className="lg:hidden h-[500px]">
 				<iframe
-					src="https://yandex.uz/map-widget/v1/?ll=69.120621%2C41.273983&mode=search&sll=69.118806%2C41.273500&text=41.273500%2C69.118806&z=16.8"
+					src="https://yandex.uz/map-widget/v1/?bookmarks%5Bpid%5D=work&bookmarks%5Buri%5D=ymapsbm1%3A%2F%2Fpin%3Fll%3D69.203610%252C41.287270&ll=69.205912%2C41.287660&z=16.4"
 					className="w-full h-full"
 					style={{ border: 0 }}
 				></iframe>
