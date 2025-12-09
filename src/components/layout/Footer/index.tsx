@@ -1,3 +1,7 @@
+import { Facebook } from "./../../../../public/icons/Facebook"
+import { Instagram } from "./../../../../public/icons/Instagram"
+import { Telegram } from "./../../../../public/icons/Telegram"
+
 export const Footer = () => {
 	return (
 		<footer>
@@ -37,17 +41,18 @@ export const Footer = () => {
 							</li>
 						</ul>
 					</div>
-					{/* <div className="flex justify-center">
+					<div className="flex justify-center">
 						<a
 							href="https://yandex.uz/web-maps/-/CLaRe2OF"
 							target="_blank"
 							data-aos="zoom-out"
 							className="text-center md:text-left"
 						>
-							{t("footer.address")}
+							Ташкентская область, Зангиатинский район, МФУ Найман, ответвление
+							улицы Мустакиллик, дом 19
 						</a>
-					</div> */}
-					{/* <div className="flex justify-center md:justify-end">
+					</div>
+					<div className="flex justify-center md:justify-end">
 						<ul className="flex flex-row md:flex-col xl:flex-row gap-6">
 							<li data-aos="zoom-out-left">
 								<a
@@ -60,7 +65,7 @@ export const Footer = () => {
 							</li>
 							<li data-aos="zoom-out-left">
 								<a
-									href="https://www.instagram.com/kyariz.uz/"
+									href="https://www.instagram.com/sunnatbekweb"
 									target="_blank"
 									className="footer_social"
 								>
@@ -69,7 +74,7 @@ export const Footer = () => {
 							</li>
 							<li data-aos="zoom-out-left">
 								<a
-									href="https://t.me"
+									href="https://t.me/sunnatbek_kadamov"
 									target="_blank"
 									className="footer_social"
 								>
@@ -77,10 +82,10 @@ export const Footer = () => {
 								</a>
 							</li>
 						</ul>
-					</div> */}
+					</div>
 				</div>
 			</div>
-			<div className="py-5 sm:py-8 border-t">
+			<div className="py-5 sm:py-8">
 				<div className="container relative flex items-center justify-between">
 					<div className="sm:absolute top-1/2 left-1/2 sm:-translate-1/2 text-sm sm:text-base">
 						&copy; {new Date().getFullYear()}{" "}
