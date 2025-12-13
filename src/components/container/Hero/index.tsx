@@ -1,4 +1,4 @@
-import { Button } from "../../ui/Button"
+import { PrimaryBtn } from "../../ui/Button"
 import styles from "./style.module.css"
 
 export const Hero = () => {
@@ -13,7 +13,7 @@ export const Hero = () => {
 						модели с высокими показателями эстетики и механической стойкости
 						напрямую от производителя – компании «Мастер Строй».
 					</p>
-					<Button text="Каталог" />
+					<PrimaryBtn text="Каталог" />
 				</div>
 			</div>
 		</section>

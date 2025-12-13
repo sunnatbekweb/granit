@@ -1,6 +1,6 @@
-.button {
+.primary_button {
 	width: 240px;
-	padding: 20px 0;
+	padding: 16px 0;
 	background-color: #e05100;
 	border-radius: 30px;
 	font-family: "Montserrat", sans-serif;
@@ -9,4 +9,24 @@
 	text-align: center;
 	cursor: pointer;
 	color: #ffffff;
+}
+
+.secondary_button {
+	width: 240px;
+	padding: 12px 0;
+	background-color: #ffffff;
+	border: 2px solid #e05100;
+	border-radius: 24px;
+	font-family: "Montserrat", sans-serif;
+	font-weight: 700;
+	font-size: 1rem;
+	text-align: center;
+	cursor: pointer;
+	color: #e05100;
+}
+
+.secondary_button:hover {
+	background-color: #e05100;
+	color: #ffffff;
+	transition: background-color 0.3s ease, color 0.3s ease;
 }

@@ -1,4 +1,4 @@
-import { Button } from "../../ui/Button"
+import { PrimaryBtn } from "../../ui/Button"
 import styles from "./style.module.css"
 
 export const About = () => {
@@ -34,9 +34,10 @@ export const About = () => {
 						<br /> Теперь если вам нужна тротуарная плитка, вы знаете где ее
 						можно приобрести. «Мастер Строй» - компания-производитель, которая
 						гарантирует достойный уровень качества по приятной цене. <br />
-						<br /> ООО «МАСТЕ <br /><br />
+						<br /> ООО «МАСТЕ <br />
+						<br />
 					</p>
-					<Button text="Приобрести" />
+					<PrimaryBtn text="Приобрести" />
 				</div>
 			</div>
 		</section>

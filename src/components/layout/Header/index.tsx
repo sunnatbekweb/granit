@@ -1,3 +1,5 @@
+import { SecondaryBtn } from "../../ui/Button"
+
 export const Header = () => {
 	return (
 		<header className="py-3">
@@ -17,6 +19,11 @@ export const Header = () => {
 					</li>
 					<li>
 						<a href="#">Контакты</a>
+					</li>
+					<li>
+						<a href="#">
+							<SecondaryBtn />
+						</a>
 					</li>
 				</ul>
 			</div>

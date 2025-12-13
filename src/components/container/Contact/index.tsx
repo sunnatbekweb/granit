@@ -1,4 +1,4 @@
-import { Button } from "../../ui/Button"
+import { PrimaryBtn } from "../../ui/Button"
 
 export const Contact = () => {
 	return (
@@ -50,7 +50,7 @@ export const Contact = () => {
 									className="px-6 py-4 h-[120px] rounded-3xl bg-[#7e7e7e] focus:outline-[#000000]"
 								></textarea>
 							</label>
-							<Button text="Отправить" />
+							<PrimaryBtn text="Отправить" />
 						</form>
 					</div>
 					<div className="hidden lg:block absolute top-0 right-0 w-1/2 h-full">
