@@ -1,4 +1,4 @@
-import { ProductCard } from "../../ui/Card/ProductCard"
+import { ProductCard } from '../../ui/Card'
 
 export const Products = () => {
 	return (

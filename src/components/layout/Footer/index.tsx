@@ -1,6 +1,6 @@
-import { Facebook } from "./../../../../public/icons/Facebook"
-import { Instagram } from "./../../../../public/icons/Instagram"
-import { Telegram } from "./../../../../public/icons/Telegram"
+import { Facebook } from '../../../assets/Facebook'
+import { Instagram } from '../../../assets/Instagram'
+import { Telegram } from '../../../assets/Telegram'
 
 export const Footer = () => {
 	return (
@@ -8,24 +8,36 @@ export const Footer = () => {
 			<div className="container">
 				<div className="pt-16 pb-12 grid grid-cols-1 md:grid-cols-5 gap-5 text-black">
 					<div className="flex justify-center md:justify-start">
-						<a href={"/"}>
-							<img src={"/images/logo.png"} alt="Footer logo" />
+						<a href={'/'}>
+							<img
+								src={'/images/logo.png'}
+								alt="Footer logo"
+							/>
 						</a>
 					</div>
 					<div className="flex justify-center">
 						<ul className="flex flex-col gap-6">
 							<li className="flex justify-center md:justify-start">
-								<a href={"#about"} className="text-center md:text-left">
+								<a
+									href={'#about'}
+									className="text-center md:text-left"
+								>
 									О компании
 								</a>
 							</li>
 							<li className="flex justify-center md:justify-start">
-								<a href={"#products"} className="text-center md:text-left">
+								<a
+									href={'#products'}
+									className="text-center md:text-left"
+								>
 									Портфолио
 								</a>
 							</li>
 							<li className="flex justify-center md:justify-start">
-								<a href={"#contact"} className="text-center md:text-left">
+								<a
+									href={'#contact'}
+									className="text-center md:text-left"
+								>
 									Контакты
 								</a>
 							</li>
@@ -88,15 +100,18 @@ export const Footer = () => {
 			<div className="py-5 sm:py-8">
 				<div className="container relative flex items-center justify-between">
 					<div className="sm:absolute top-1/2 left-1/2 sm:-translate-1/2 text-sm sm:text-base">
-						&copy; {new Date().getFullYear()}{" "}
+						&copy; {new Date().getFullYear()}{' '}
 						<a href="mailto:empireofpolymers@gmail.com">ООО "Мастер строй"</a>
 					</div>
-					<div className="sm:absolute top-1/2 right-0 sm:-translate-y-1/2 text-sm sm:text-base">
-						Разработано:{" "}
-						<a href="https://onesystem.uz" target="_blank">
+					{/* <div className="sm:absolute top-1/2 right-0 sm:-translate-y-1/2 text-sm sm:text-base">
+						Разработано:{' '}
+						<a
+							href="https://onesystem.uz"
+							target="_blank"
+						>
 							<strong>onesystem</strong>
 						</a>
-					</div>
+					</div> */}
 				</div>
 			</div>
 		</footer>

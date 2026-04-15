@@ -1,5 +1,9 @@
 @import "tailwindcss";
 
+:root {
+	--color-primary: #e05100
+}
+
 .container {
 	margin: 0 auto;
 	padding: 0 10px;

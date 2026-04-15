@@ -12,19 +12,19 @@ export const AboutProduction = () => {
 						</div>
 						<div className="flex flex-col gap-y-8">
 							<div className="flex items-center gap-x-8">
-								<img src="/public/icons/crane.svg" alt="crane" />
+								<img src="/icons/crane.svg" alt="crane" />
 								<span className="text-xl text-white">
 									Доставка и разгрузка плитки краном-манипулятором
 								</span>
 							</div>
 							<div className="flex items-center gap-x-8">
-								<img src="/public/icons/brick_build.svg" alt="brick_build" />
+								<img src="/icons/brick_build.svg" alt="brick_build" />
 								<span className="text-xl text-white">
 									Множество видов тротуарной плитки различной формы и фактуры
 								</span>
 							</div>
 							<div className="flex items-center gap-x-8">
-								<img src="/public/icons/quality.svg" alt="quality" />
+								<img src="/icons/quality.svg" alt="quality" />
 								<span className="text-xl text-white">
 									Весь товар сертифицирован! Официальная гарантия!
 								</span>
