@@ -7,7 +7,7 @@ export const Header = () => {
 				<a href="/">
 					<img src="/images/logo.png" alt="Logo" />
 				</a>
-				<ul className="flex items-center gap-x-10">
+				<ul className="hidden lg:flex items-center gap-x-10">
 					<li>
 						<a href="#">О компании</a>
 					</li>
@@ -26,6 +26,7 @@ export const Header = () => {
 						</a>
 					</li>
 				</ul>
+				<button></button>
 			</div>
 		</header>
 	)

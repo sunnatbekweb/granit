@@ -98,7 +98,7 @@ export const Footer = () => {
 				</div>
 			</div>
 			<div className="py-5 sm:py-8">
-				<div className="container relative flex items-center justify-between">
+				<div className="container relative flex items-center justify-center">
 					<div className="sm:absolute top-1/2 left-1/2 sm:-translate-1/2 text-sm sm:text-base">
 						&copy; {new Date().getFullYear()}{' '}
 						<a href="mailto:empireofpolymers@gmail.com">ООО "Мастер строй"</a>

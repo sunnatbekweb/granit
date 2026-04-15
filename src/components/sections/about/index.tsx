@@ -1,10 +1,10 @@
-import { PrimaryBtn } from "../../ui/Button"
-import styles from "./style.module.css"
+import { PrimaryBtn } from '../../ui/Button'
+import styles from './style.module.css'
 
 export const About = () => {
 	return (
 		<section className={styles.about}>
-			<div className="w-1/2 absolute h-full top-0 left-0">
+			<div className="hidden lg:block w-1/2 absolute h-full top-0 left-0">
 				<img
 					src="/images/about_image.png"
 					alt="Image"
@@ -12,7 +12,7 @@ export const About = () => {
 				/>
 			</div>
 			<div className="container">
-				<div className="w-1/2 ml-auto pl-16">
+				<div className="w-full lg:w-1/2 ml-auto lg:pl-16">
 					<h2 className={styles.title}>О нас</h2>
 					<h3 className={styles.subtitle}>
 						«Мастер Строй» - надежная и недорогая тротуарная плитка в
