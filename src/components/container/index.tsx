@@ -8,7 +8,7 @@ import { Works } from "./works"
 
 export const Container = () => {
 	return (
-		<>
+		<main>
 			<Hero />
 			<Catalog />
 			<About />
@@ -16,6 +16,6 @@ export const Container = () => {
 			<AboutProduction />
 			<Works />
 			<Contact />
-		</>
+		</main>
 	)
 }

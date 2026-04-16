@@ -26,7 +26,7 @@ export const Header = () => {
 						</a>
 					</li>
 				</ul>
-				<button></button>
+				<button className='lg:hidden'></button>
 			</div>
 		</header>
 	)
