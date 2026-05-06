@@ -3,7 +3,7 @@ import styles from './style.module.css'
 
 export const About = () => {
 	return (
-		<section className={styles.about}>
+		<section id='about' className={styles.about}>
 			<div className="hidden lg:block w-1/2 absolute h-full top-0 left-0">
 				<img
 					src="/images/about_image.png"

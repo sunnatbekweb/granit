@@ -1,0 +1,78 @@
+.drawer {
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+}
+
+.drawer__overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.4);
+  transition: opacity 0.3s;
+}
+
+.drawer__panel {
+  position: absolute;
+  background: white;
+  transition: transform 0.3s;
+}
+
+/* RIGHT */
+.drawer--right .drawer__panel {
+  top: 0;
+  right: 0;
+  width: 320px;
+  height: 100%;
+  transform: translateX(100%);
+}
+
+.drawer--right.open .drawer__panel {
+  transform: translateX(0);
+}
+
+.drawer--right.closing .drawer__panel {
+  transform: translateX(100%);
+}
+
+/* LEFT */
+.drawer--left .drawer__panel {
+  top: 0;
+  left: 0;
+  width: 320px;
+  height: 100%;
+  transform: translateX(-100%);
+}
+
+.drawer--left.open .drawer__panel {
+  transform: translateX(0);
+}
+
+.drawer--left.closing .drawer__panel {
+  transform: translateX(-100%);
+}
+
+/* TOP */
+.drawer--top .drawer__panel {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 300px;
+  transform: translateY(-100%);
+}
+
+.drawer--top.open .drawer__panel {
+  transform: translateY(0);
+}
+
+.drawer--top.closing .drawer__panel {
+  transform: translateY(-100%);
+}
+
+/* overlay */
+.drawer.open .drawer__overlay {
+  opacity: 1;
+}
+
+.drawer.closing .drawer__overlay {
+  opacity: 0;
+}
